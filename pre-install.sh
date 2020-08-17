@@ -90,3 +90,5 @@ debug pacstrap
 genfstab -U /mnt >> /mnt/etc/fstab
 
 debug generating fstab
+
+arch-chroot /mnt
